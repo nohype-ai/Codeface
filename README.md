@@ -12,9 +12,13 @@
 
 **App Store:** [Codeface on the Mac App Store](https://apps.apple.com/app/codeface/id1578175415)
 
-## Give Feedback – We Read it
+## Give Feedback – We Read It
 
-**Open an Issue:** [Codeface issues on GitHub](https://github.com/nohype-ai/Codeface/issues) for ideas, requests, or bugs.
+**GitHub issues:** [Open issues on GitHub](https://github.com/nohype-ai/Codeface/issues) to send us ideas, feature requests, or bugs.
+
+## Use Our Open-Source and Contribute
+
+**GitHub orga:** [The Nohype AI orga](https://github.com/nohype-ai) hosts some of Codeface's infrastructure as open-source Swift packages.
 
 ## Stay Tuned
 
