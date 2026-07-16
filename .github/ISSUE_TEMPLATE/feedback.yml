@@ -1,0 +1,17 @@
+name: Feedback
+description: Ideas, feature requests, or anything else on your mind
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Write however you like — no fixed format required.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: Ideas, requests, use cases, praise, criticism — all welcome.
+      placeholder: What's on your mind?
+    validations:
+      required: true

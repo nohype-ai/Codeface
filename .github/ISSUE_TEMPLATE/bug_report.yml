@@ -1,0 +1,57 @@
+name: Bug report
+description: Something isn't working as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A short summary of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we trigger this?
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: Codeface version
+      description: From the app's About window, or the App Store / build you installed.
+      placeholder: e.g. 1.2.3
+    validations:
+      required: false
+  - type: input
+    id: macos_version
+    attributes:
+      label: macOS version
+      placeholder: e.g. 15.1
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra context
+      description: Screenshots, sample project details, logs — anything that helps.
+    validations:
+      required: false
